@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FavoritesViewController.h
 //  TMDBManager
 //
 //  Created by zhu yongxuan on 15/9/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FavoritesViewController : UIViewController
 
 @end
-

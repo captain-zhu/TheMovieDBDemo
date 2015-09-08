@@ -10,11 +10,17 @@
 		CBE5E69E1B9D70FC003AF49C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE5E69D1B9D70FC003AF49C /* main.m */; };
 		CBE5E6A11B9D70FC003AF49C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE5E6A01B9D70FC003AF49C /* AppDelegate.m */; };
 		CBE5E6A41B9D70FC003AF49C /* TMDBManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBE5E6A21B9D70FC003AF49C /* TMDBManager.xcdatamodeld */; };
-		CBE5E6A71B9D70FC003AF49C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE5E6A61B9D70FC003AF49C /* ViewController.m */; };
 		CBE5E6AA1B9D70FC003AF49C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE5E6A81B9D70FC003AF49C /* Main.storyboard */; };
 		CBE5E6AC1B9D70FC003AF49C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE5E6AB1B9D70FC003AF49C /* Images.xcassets */; };
 		CBE5E6AF1B9D70FC003AF49C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBE5E6AD1B9D70FC003AF49C /* LaunchScreen.xib */; };
 		CBE5E6BB1B9D70FC003AF49C /* TMDBManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE5E6BA1B9D70FC003AF49C /* TMDBManagerTests.m */; };
+		CBE5E6C71B9D71D7003AF49C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE5E6C61B9D71D7003AF49C /* LoginViewController.m */; };
+		CBE5E6CB1B9D7217003AF49C /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE5E6CA1B9D7217003AF49C /* MovieDetailViewController.m */; };
+		CBE5E6CE1B9D7232003AF49C /* MoviePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE5E6CD1B9D7232003AF49C /* MoviePickerViewController.m */; };
+		CBE5E6D11B9D7268003AF49C /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE5E6D01B9D7268003AF49C /* FavoritesViewController.m */; };
+		CBE5E6D41B9D727C003AF49C /* WatchlistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE5E6D31B9D727C003AF49C /* WatchlistViewController.m */; };
+		CBE5E6D71B9D72AF003AF49C /* BoarderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE5E6D61B9D72AF003AF49C /* BoarderButton.m */; };
+		CBE5E6DB1B9D72EB003AF49C /* TMDBClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE5E6DA1B9D72EB003AF49C /* TMDBClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +40,26 @@
 		CBE5E69F1B9D70FC003AF49C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBE5E6A01B9D70FC003AF49C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CBE5E6A31B9D70FC003AF49C /* TMDBManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TMDBManager.xcdatamodel; sourceTree = "<group>"; };
-		CBE5E6A51B9D70FC003AF49C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CBE5E6A61B9D70FC003AF49C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CBE5E6A91B9D70FC003AF49C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBE5E6AB1B9D70FC003AF49C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CBE5E6AE1B9D70FC003AF49C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CBE5E6B41B9D70FC003AF49C /* TMDBManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDBManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE5E6B91B9D70FC003AF49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBE5E6BA1B9D70FC003AF49C /* TMDBManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMDBManagerTests.m; sourceTree = "<group>"; };
+		CBE5E6C51B9D71D7003AF49C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Controller/LoginViewController.h; sourceTree = "<group>"; };
+		CBE5E6C61B9D71D7003AF49C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Controller/LoginViewController.m; sourceTree = "<group>"; };
+		CBE5E6C91B9D7217003AF49C /* MovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovieDetailViewController.h; path = Controller/MovieDetailViewController.h; sourceTree = "<group>"; };
+		CBE5E6CA1B9D7217003AF49C /* MovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovieDetailViewController.m; path = Controller/MovieDetailViewController.m; sourceTree = "<group>"; };
+		CBE5E6CC1B9D7232003AF49C /* MoviePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoviePickerViewController.h; path = Controller/MoviePickerViewController.h; sourceTree = "<group>"; };
+		CBE5E6CD1B9D7232003AF49C /* MoviePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoviePickerViewController.m; path = Controller/MoviePickerViewController.m; sourceTree = "<group>"; };
+		CBE5E6CF1B9D7268003AF49C /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavoritesViewController.h; path = Controller/FavoritesViewController.h; sourceTree = "<group>"; };
+		CBE5E6D01B9D7268003AF49C /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavoritesViewController.m; path = Controller/FavoritesViewController.m; sourceTree = "<group>"; };
+		CBE5E6D21B9D727C003AF49C /* WatchlistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchlistViewController.h; path = Controller/WatchlistViewController.h; sourceTree = "<group>"; };
+		CBE5E6D31B9D727C003AF49C /* WatchlistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchlistViewController.m; path = Controller/WatchlistViewController.m; sourceTree = "<group>"; };
+		CBE5E6D51B9D72AF003AF49C /* BoarderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoarderButton.h; path = View/BoarderButton.h; sourceTree = "<group>"; };
+		CBE5E6D61B9D72AF003AF49C /* BoarderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoarderButton.m; path = View/BoarderButton.m; sourceTree = "<group>"; };
+		CBE5E6D91B9D72EB003AF49C /* TMDBClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMDBClient.h; path = Model/TMDBClient.h; sourceTree = "<group>"; };
+		CBE5E6DA1B9D72EB003AF49C /* TMDBClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMDBClient.m; path = Model/TMDBClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +103,9 @@
 			children = (
 				CBE5E69F1B9D70FC003AF49C /* AppDelegate.h */,
 				CBE5E6A01B9D70FC003AF49C /* AppDelegate.m */,
-				CBE5E6A51B9D70FC003AF49C /* ViewController.h */,
-				CBE5E6A61B9D70FC003AF49C /* ViewController.m */,
-				CBE5E6A81B9D70FC003AF49C /* Main.storyboard */,
-				CBE5E6AB1B9D70FC003AF49C /* Images.xcassets */,
-				CBE5E6AD1B9D70FC003AF49C /* LaunchScreen.xib */,
-				CBE5E6A21B9D70FC003AF49C /* TMDBManager.xcdatamodeld */,
+				CBE5E6DC1B9D72EF003AF49C /* Model */,
+				CBE5E6D81B9D72B8003AF49C /* View */,
+				CBE5E6C81B9D71E2003AF49C /* Controller */,
 				CBE5E69B1B9D70FC003AF49C /* Supporting Files */,
 			);
 			path = TMDBManager;
@@ -99,6 +114,9 @@
 		CBE5E69B1B9D70FC003AF49C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CBE5E6AB1B9D70FC003AF49C /* Images.xcassets */,
+				CBE5E6C41B9D7180003AF49C /* Storyboard */,
+				CBE5E6A21B9D70FC003AF49C /* TMDBManager.xcdatamodeld */,
 				CBE5E69C1B9D70FC003AF49C /* Info.plist */,
 				CBE5E69D1B9D70FC003AF49C /* main.m */,
 			);
@@ -120,6 +138,58 @@
 				CBE5E6B91B9D70FC003AF49C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBE5E6C41B9D7180003AF49C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CBE5E6A81B9D70FC003AF49C /* Main.storyboard */,
+				CBE5E6AD1B9D70FC003AF49C /* LaunchScreen.xib */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		CBE5E6C81B9D71E2003AF49C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBE5E6C51B9D71D7003AF49C /* LoginViewController.h */,
+				CBE5E6C61B9D71D7003AF49C /* LoginViewController.m */,
+				CBE5E6C91B9D7217003AF49C /* MovieDetailViewController.h */,
+				CBE5E6CA1B9D7217003AF49C /* MovieDetailViewController.m */,
+				CBE5E6CC1B9D7232003AF49C /* MoviePickerViewController.h */,
+				CBE5E6CD1B9D7232003AF49C /* MoviePickerViewController.m */,
+				CBE5E6CF1B9D7268003AF49C /* FavoritesViewController.h */,
+				CBE5E6D01B9D7268003AF49C /* FavoritesViewController.m */,
+				CBE5E6D21B9D727C003AF49C /* WatchlistViewController.h */,
+				CBE5E6D31B9D727C003AF49C /* WatchlistViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CBE5E6D81B9D72B8003AF49C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBE5E6D51B9D72AF003AF49C /* BoarderButton.h */,
+				CBE5E6D61B9D72AF003AF49C /* BoarderButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CBE5E6DC1B9D72EF003AF49C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBE5E6DD1B9D72FF003AF49C /* Client */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CBE5E6DD1B9D72FF003AF49C /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				CBE5E6D91B9D72EB003AF49C /* TMDBClient.h */,
+				CBE5E6DA1B9D72EB003AF49C /* TMDBClient.m */,
+			);
+			name = Client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,9 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE5E6C71B9D71D7003AF49C /* LoginViewController.m in Sources */,
 				CBE5E6A41B9D70FC003AF49C /* TMDBManager.xcdatamodeld in Sources */,
+				CBE5E6D11B9D7268003AF49C /* FavoritesViewController.m in Sources */,
+				CBE5E6DB1B9D72EB003AF49C /* TMDBClient.m in Sources */,
+				CBE5E6CB1B9D7217003AF49C /* MovieDetailViewController.m in Sources */,
+				CBE5E6CE1B9D7232003AF49C /* MoviePickerViewController.m in Sources */,
 				CBE5E6A11B9D70FC003AF49C /* AppDelegate.m in Sources */,
-				CBE5E6A71B9D70FC003AF49C /* ViewController.m in Sources */,
+				CBE5E6D71B9D72AF003AF49C /* BoarderButton.m in Sources */,
+				CBE5E6D41B9D727C003AF49C /* WatchlistViewController.m in Sources */,
 				CBE5E69E1B9D70FC003AF49C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +496,7 @@
 				CBE5E6C01B9D70FC003AF49C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBE5E6C11B9D70FC003AF49C /* Build configuration list for PBXNativeTarget "TMDBManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +505,7 @@
 				CBE5E6C31B9D70FC003AF49C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
