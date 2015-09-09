@@ -61,6 +61,39 @@ struct JSONBodyKeysStruct {
     __unsafe_unretained NSString *Watchlist;
 };
 
+#pragma mark - JSONResponseKeys
+
+struct JSONResponseKeysStruct {
+    //General
+    __unsafe_unretained NSString *StatusMessage;
+    __unsafe_unretained NSString *StatusCode;
+    //Authorization
+    __unsafe_unretained NSString *RequestToken;
+    __unsafe_unretained NSString *SessionID;
+    //Account
+    __unsafe_unretained NSString *UserID;
+    //Config
+    __unsafe_unretained NSString *ConfigBaseImageURL;
+    __unsafe_unretained NSString *ConfigImages;
+    __unsafe_unretained NSString *ConfigPosterSizes;
+    __unsafe_unretained NSString *ConfigProfileSizes;
+    //Movies
+    __unsafe_unretained NSString *MovieID;
+    __unsafe_unretained NSString *MovieTitle;
+    __unsafe_unretained NSString *MoviePosterPath;
+    __unsafe_unretained NSString *MovieReleaseDate;
+    __unsafe_unretained NSString *MovieReleaseYear;
+    __unsafe_unretained NSString *MovieResults;
+
+};
+
+#pragma mark - PosterSizes
+
+struct PosterSizesStruct {
+    __unsafe_unretained NSString *RowPoster;
+    __unsafe_unretained NSString *DetailPoster;
+};
+
 
 @interface TMDBClient : NSObject
 
@@ -69,5 +102,11 @@ struct JSONBodyKeysStruct {
 @property (nonatomic, weak) struct URLKeysStruct URLKeys;
 @property (nonatomic, weak) struct ParameterKeysStruct ParameterKeys;
 @property (nonatomic, weak) struct JSONBodyKeysStruct JSONBodyKeys;
+@property (nonatomic, weak) struct JSONResponseKeysStruct JSONResponseKeys;
+@property (nonatomic, weak) struct PosterSizesStruct PosterSizes;
+
++ (TMDBClient *)sharedInstance;
++ (NSString *)escapedParameters:(NSDictionary *)parameters;
++ (NSString *)substituteKeyInMethod:(NSString *)method Target:(NSString *)target withString:(NSString *)string;
 
 @end
